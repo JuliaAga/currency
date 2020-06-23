@@ -1,0 +1,52 @@
+body, h1, h2, h3, h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  background-color: #eee;
+  background-image: url(https://images.unsplash.com/photo-1420908342944-9de1be0b019a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(204, 221, 255, .3);
+  display: flex;
+  
+}
+.content {
+  font-size:0;  
+  width: 790px;
+ margin: 100px auto 50px;
+ }
+.card {
+  padding: 45px 45px 70px;
+  width: 350px;  
+  margin-bottom: 60px;  
+  display: inline-block;
+  margin-right:90px; 
+}
+.no-right-margin {
+  margin-right:0;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 16px;
+}
+.card-image {
+  width: 100%;
+  margin-bottom: 25px;
+}
